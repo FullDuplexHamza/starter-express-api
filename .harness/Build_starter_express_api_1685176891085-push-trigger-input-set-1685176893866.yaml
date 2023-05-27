@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_starter_express_api_1685176891085-push-trigger-input-set
+  identifier: Build_starter_express_api_1685176891085pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_starter_express_api_1685176891085
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
